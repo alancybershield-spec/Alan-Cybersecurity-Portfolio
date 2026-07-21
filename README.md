@@ -94,9 +94,10 @@ This project demonstrates real-world SOC engineering, not just theory.
 
 ## Contact
 
-**Name:** Uzhiyekachi Alan Ezekwem  
+**Name:** Uzhiyekachi Alan Ezekwem
+Email: alancybershield@gmail.com
 **Location:** Brooklyn, NY  
-**GitHub:** https://github.com/alancybershield  
+**GitHub:** https://github.com/alancybershield-spec/Alan-Cybersecurity-Portfolio
 **Company:** NexaShield Group LLC  
 
 ---
