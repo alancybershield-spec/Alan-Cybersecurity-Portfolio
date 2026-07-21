@@ -1,5 +1,6 @@
 # Uzhiyekachi Alan Ezekwem-Cybersecurity-Portfolio
-Cybersecurity Engineer | SOC Analyst | Detection Engineering
+Cybersecurity Engineer | SOC Analyst | Detection Engineering | Wazuh SIEM | Sysmon Telemetry | Threat Emulation | Blue-Team Research
+
 A Personal cybersecurity portfolio showcasing SOC labs, SIEM deployments, Sysmon telemetry, threat detection, and hands-on security engineering projects.
 
 I am a cybersecurity engineer focused on SOC operations, SIEM deployment, endpoint
