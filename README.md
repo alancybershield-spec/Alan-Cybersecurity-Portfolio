@@ -128,3 +128,9 @@ high‑volume failed authentication events that were successfully detected by Wa
 service at 192.168.56.4:3389 on a diferente date and time. Hydra attempted thousands of login combinations using
 the rockyou.txt wordlist. Although no valid password was found, the attack generated
 high‑volume failed authentication events that were successfully detected also by Wazuh.
+
+## Sysmon Detection — Rule 92217 (Executable Dropped) non service account logged off , local service log on.png
+This screenshot shows Sysmon detecting a file creation event triggered by PowerShell.
+Rule 92217 (Executable dropped in Windows root folder) confirms that Sysmon is
+installed correctly, Wazuh is ingesting Sysmon logs, and file creation events are
+being monitored. Additional logon/logoff events demonstrate endpoint telemetry flow.
