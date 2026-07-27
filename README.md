@@ -110,3 +110,9 @@ learning in blue-team operations.
 
 All projects are built, tested, broken, repaired, and validated inside live
 multi-VM environments to reflect real-world SOC workflows.
+
+## 📸 Screenshot Documentation
+
+## Advanced Wazuh SIEM Threat‑Hunting Lab Environment.png
+Description:  
+This setup demonstrates a fully operational cybersecurity lab built with VirtualBox, featuring an Ubuntu‑based Wazuh SIEM server, a Windows 10 endpoint, and an attacker VM. The screenshot highlights active threat‑hunting within Wazuh, showing real‑time Windows event logs such as non‑service account logoffs and privilege‑assignment events. Together, the environment validates agent deployment, log ingestion, rule triggering, and SOC analysis workflows.
