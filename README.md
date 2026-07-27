@@ -147,7 +147,7 @@ high‑volume failed authentication events that were successfully detected by Wa
 
 ### Hydra Attack Output — Attacker VM July 19 2026.png
 This screenshot also shows Hydra performing a brute‑force attack against the Windows RDP
-service at 192.168.56.4:3389 on a diferente date and time. Hydra attempted thousands of login combinations using
+service at 192.168.56.4:3389 on a different date and time. Hydra attempted thousands of login combinations using
 the rockyou.txt wordlist. Although no valid password was found, the attack generated
 high‑volume failed authentication events that were successfully detected also by Wazuh.
 
@@ -173,7 +173,7 @@ of failed login attempts within a short time window. This confirms that the SIEM
 correctly aggregated individual 4625 events into a single brute‑force alert.
 
 ### Wazuh Threat Hunting — Rule 60204 July 19 2026 (Severity 10).png
-This screenshot also shows Wazuh detecting a high‑severity brute‑force attack on a difeerent date and time. Rule 60204
+This screenshot also shows Wazuh detecting a high‑severity brute‑force attack on a different date and time. Rule 60204
 (Multiple Windows Logon Failures) is triggered when Wazuh correlates a rapid sequence
 of failed login attempts within a short time window. This confirms that again, the SIEM
 correctly aggregated individual 4625 events into a single brute‑force alert.
