@@ -12,6 +12,29 @@ This GitHub portfolio contains my personal cybersecurity projects, SOC labs, SIE
 deployments, and hands-on detection engineering work.
 
 ---
+## 📑 Table of Contents
+- [Summary](#summary)
+- [About Me](#about-me)
+- [Technical Skills](#technical-skills)
+  - [SOC & SIEM](#soc--siem)
+  - [Threat Emulation](#threat-emulation)
+  - [Endpoint Telemetry](#endpoint-telemetry)
+  - [Tools & Platforms](#tools--platforms)
+- [Featured Project: Wazuh SOC SIEM Lab](#featured-project-wazuh-soc-siem-lab)
+  - [Detection Highlights](#detection-highlights)
+  - [Troubleshooting Achievements](#troubleshooting-achievements)
+- [Current Focus](#current-focus)
+- [Contact](#contact)
+- [Purpose of This Portfolio](#purpose-of-this-portfolio)
+- [Screenshot Documentation](#screenshot-documentation)
+  - [Advanced Wazuh SIEM Threat‑Hunting Lab Environment](#advanced-wazuh-siem-threathunting-lab-environment)
+  - [Hydra Attack Output — July 16, 2026](#hydra-attack-output--attacker-vm-july-16-2026png)
+  - [Hydra Attack Output — July 19, 2026](#hydra-attack-output--attacker-vm-july-19-2026png)
+  - [Sysmon Detection — Rule 92217](#sysmon-detection--rule-92217-executable-dropped-non-service-account-logged-off--local-service-log-onpng)
+  - [Full SOC Lab Environment Running](#ubuntu-siem-server-running-win-10vm-running-attcker--vm-wazuh-dashboard--threat-huntingpng)
+  - [Wazuh Threat Hunting — Rule 60204 (July 16)](#wazuh-threat-hunting--rule-60204-july-16-2026-severity-10png)
+  - [Wazuh Threat Hunting — Rule 60204 (July 19)](#wazuh-threat-hunting--rule-60204-july-19-2026-severity-10png)
+  - [Windows Endpoint Telemetry Validation](#windows-endpoint-telemetry-validation-using-sysmon--powershellpng)
 
 ## About Me
 
