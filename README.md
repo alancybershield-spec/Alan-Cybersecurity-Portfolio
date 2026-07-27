@@ -113,28 +113,28 @@ multi-VM environments to reflect real-world SOC workflows.
 
 ##  Screenshot Documentation
 
-## Advanced Wazuh SIEM Threat‑Hunting Lab Environment.png 
+### Advanced Wazuh SIEM Threat‑Hunting Lab Environment.png 
 This setup demonstrates a fully operational cybersecurity lab built with VirtualBox, featuring an Ubuntu‑based Wazuh SIEM server, a Windows 10 endpoint, and an attacker VM. The screenshot highlights active threat‑hunting within Wazuh, showing real‑time Windows event logs such as non‑service account logoffs and privilege‑assignment events. Together, the environment validates agent deployment, log ingestion, rule triggering, and SOC analysis workflows.
 
-## Hydra Attack Output — Attacker VM July 16 2026.png
+### Hydra Attack Output — Attacker VM July 16 2026.png
 This screenshot shows Hydra performing a brute‑force attack against the Windows RDP
 service at 192.168.56.4:3389. Hydra attempted thousands of login combinations using
 the rockyou.txt wordlist. Although no valid password was found, the attack generated
 high‑volume failed authentication events that were successfully detected by Wazuh.
 
-## Hydra Attack Output — Attacker VM July 19 2026.png
+### Hydra Attack Output — Attacker VM July 19 2026.png
 This screenshot also shows Hydra performing a brute‑force attack against the Windows RDP
 service at 192.168.56.4:3389 on a diferente date and time. Hydra attempted thousands of login combinations using
 the rockyou.txt wordlist. Although no valid password was found, the attack generated
 high‑volume failed authentication events that were successfully detected also by Wazuh.
 
-## Sysmon Detection — Rule 92217 (Executable Dropped) non service account logged off , local service log on.png
+### Sysmon Detection — Rule 92217 (Executable Dropped) non service account logged off , local service log on.png
 This screenshot shows Sysmon detecting a file creation event triggered by PowerShell.
 Rule 92217 (Executable dropped in Windows root folder) confirms that Sysmon is
 installed correctly, Wazuh is ingesting Sysmon logs, and file creation events are
 being monitored. Additional logon/logoff events demonstrate endpoint telemetry flow.
 
-## Ubuntu siem server running, win-10vm running, attcker- vm, wazuh dashboard , threat hunting.png
+### Ubuntu siem server running, win-10vm running, attcker- vm, wazuh dashboard , threat hunting.png
 This screenshot shows the full SOC lab environment running simultaneously:
 - Ubuntu SIEM server (Wazuh Manager)
 - Windows 10 endpoint with Wazuh agent and Sysmon
@@ -143,17 +143,17 @@ This screenshot shows the full SOC lab environment running simultaneously:
 This validates the multi‑VM architecture and confirms all components were active
 during the attack and detection workflow.
 
-## Wazuh Threat Hunting — Rule 60204 July 16 2026 (Severity 10).png
+### Wazuh Threat Hunting — Rule 60204 July 16 2026 (Severity 10).png
 This screenshot shows Wazuh detecting a high‑severity brute‑force attack. Rule 60204
 (Multiple Windows Logon Failures) is triggered when Wazuh correlates a rapid sequence
 of failed login attempts within a short time window. This confirms that the SIEM
 correctly aggregated individual 4625 events into a single brute‑force alert.
 
-## Wazuh Threat Hunting — Rule 60204 July 19 2026 (Severity 10).png
+### Wazuh Threat Hunting — Rule 60204 July 19 2026 (Severity 10).png
 This screenshot also shows Wazuh detecting a high‑severity brute‑force attack on a difeerent date and time. Rule 60204
 (Multiple Windows Logon Failures) is triggered when Wazuh correlates a rapid sequence
 of failed login attempts within a short time window. This confirms that again, the SIEM
 correctly aggregated individual 4625 events into a single brute‑force alert.
 
-## Windows Endpoint Telemetry Validation Using Sysmon & PowerShell.png
+### Windows Endpoint Telemetry Validation Using Sysmon & PowerShell.png
 This screenshot captures part of my cybersecurity home lab where I validate Windows telemetry before forwarding it to Wazuh SIEM. Using PowerShell, I queried the Sysmon Operational log to inspect recent security‑relevant events such as process creation, DNS queries, registry modifications, file creation, and network connections. This step ensures Sysmon is correctly installed, configured, and generating high‑fidelity data needed for threat detection and SOC analysis.
