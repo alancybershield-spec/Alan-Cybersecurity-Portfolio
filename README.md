@@ -124,7 +124,7 @@ This project demonstrates real-world SOC engineering, not just theory.
 ---## 📄 Resume
 You can view or download my full cybersecurity resume here:
 
-👉 [Resume.pdf](https://github.com/alancybershield-spec/Alan-Ezekwem-Resume/blob/main/Resume.pdf)
+👉 [Resume.pdf](https://github.com/alancybershield-spec/Uzhiyekachi-Alan-Ezekwem-Resume/blob/main/Uzhiyekachi Alan Ezekwem resume.pdf)
 
 👉 [Resume.md](https://github.com/alancybershield-spec/Alan-Ezekwem-Resume/blob/main/Resume.md)
 
