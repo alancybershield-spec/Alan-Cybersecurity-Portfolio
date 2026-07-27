@@ -37,17 +37,15 @@ deployments, and hands-on detection engineering work.
   - [Windows Endpoint Telemetry Validation](#windows-endpoint-telemetry-validation-using-sysmon--powershellpng)
 
 ## About Me
-
 - SOC Analyst (Beginner–Intermediate)
 - Cybersecurity student at LaGuardia Community College
+- Full‑Stack Software Engineering Micro‑Credential (Queensborough Community College)
 - Lead engineer for NexaShield Group LLC research labs
 - Experienced with Wazuh SIEM/XDR deployment and tuning
 - Skilled in Windows endpoint telemetry (Sysmon + Event Logs)
 - Comfortable with threat emulation using Hydra and PowerShell
 - Strong troubleshooting background in Filebeat, certificates, and log ingestion
 - Focused on blue-team operations, detection engineering, and SIEM architecture
-
----
 
 ## Technical Skills
 
