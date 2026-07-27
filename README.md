@@ -124,7 +124,7 @@ the rockyou.txt wordlist. Although no valid password was found, the attack gener
 high‑volume failed authentication events that were successfully detected by Wazuh.
 
 ## Hydra Attack Output — Attacker VM July 19 2026.png
- This screenshot also shows Hydra performing a brute‑force attack against the Windows RDP
+This screenshot also shows Hydra performing a brute‑force attack against the Windows RDP
 service at 192.168.56.4:3389 on a diferente date and time. Hydra attempted thousands of login combinations using
 the rockyou.txt wordlist. Although no valid password was found, the attack generated
 high‑volume failed authentication events that were successfully detected also by Wazuh.
@@ -134,3 +134,12 @@ This screenshot shows Sysmon detecting a file creation event triggered by PowerS
 Rule 92217 (Executable dropped in Windows root folder) confirms that Sysmon is
 installed correctly, Wazuh is ingesting Sysmon logs, and file creation events are
 being monitored. Additional logon/logoff events demonstrate endpoint telemetry flow.
+
+## Ubuntu siem server running, win-10vm running, attcker- vm, wazuh dashboard , threat hunting.png
+This screenshot shows the full SOC lab environment running simultaneously:
+- Ubuntu SIEM server (Wazuh Manager)
+- Windows 10 endpoint with Wazuh agent and Sysmon
+- Attacker VM running Hydra
+- Wazuh Dashboard displaying Threat Hunting alerts
+This validates the multi‑VM architecture and confirms all components were active
+during the attack and detection workflow.
