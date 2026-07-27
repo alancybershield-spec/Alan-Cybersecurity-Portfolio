@@ -121,13 +121,12 @@ This project demonstrates real-world SOC engineering, not just theory.
 **GitHub:** https://github.com/alancybershield-spec/Alan-Cybersecurity-Portfolio
 **Company:** NexaShield Group LLC  
 
----## 📄 Resume
-You can view or download my full cybersecurity resume here:
-👉 [Resume.md](https://github.com/alancybershield-spec/Uzhiyekachi-Alan-Ezekwem-Resume/blob/main/Uzhiyekachi%20Alan%20Ezekwem%20resume.pdf)
 ## 📄 Resume
 You can view or download my full cybersecurity resume here:
+👉 [Resume.pdf](https://github.com/alancybershield-spec/Uzhiyekachi-Alan-Ezekwem-Resume/blob/main/Uzhiyekachi%20Alan%20Ezekwem%20resume.pdf)
 
-👉 [Resume.pdf](https://github.com/alancybershield/Alan-Ezekwem-Resume/blob/main/Resume.pdf)
+
+
 
 👉 [Resume.md](https://github.com/alancybershield/Alan-Ezekwem-Resume/blob/main/Resume.md)
 
