@@ -143,3 +143,15 @@ This screenshot shows the full SOC lab environment running simultaneously:
 - Wazuh Dashboard displaying Threat Hunting alerts
 This validates the multi‑VM architecture and confirms all components were active
 during the attack and detection workflow.
+
+## Wazuh Threat Hunting — Rule 60204 July 16 2026 (Severity 10).png
+This screenshot shows Wazuh detecting a high‑severity brute‑force attack. Rule 60204
+(Multiple Windows Logon Failures) is triggered when Wazuh correlates a rapid sequence
+of failed login attempts within a short time window. This confirms that the SIEM
+correctly aggregated individual 4625 events into a single brute‑force alert.
+
+## Wazuh Threat Hunting — Rule 60204 July 19 2026 (Severity 10).png
+This screenshot also shows Wazuh detecting a high‑severity brute‑force attack on a difeerent date and time. Rule 60204
+(Multiple Windows Logon Failures) is triggered when Wazuh correlates a rapid sequence
+of failed login attempts within a short time window. This confirms that again, the SIEM
+correctly aggregated individual 4625 events into a single brute‑force alert.
