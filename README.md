@@ -116,3 +116,15 @@ multi-VM environments to reflect real-world SOC workflows.
 ## Advanced Wazuh SIEM Threat‑Hunting Lab Environment.png
 Description:  
 This setup demonstrates a fully operational cybersecurity lab built with VirtualBox, featuring an Ubuntu‑based Wazuh SIEM server, a Windows 10 endpoint, and an attacker VM. The screenshot highlights active threat‑hunting within Wazuh, showing real‑time Windows event logs such as non‑service account logoffs and privilege‑assignment events. Together, the environment validates agent deployment, log ingestion, rule triggering, and SOC analysis workflows.
+
+## Hydra Attack Output — Attacker VM July 16 2026.png
+This screenshot shows Hydra performing a brute‑force attack against the Windows RDP
+service at 192.168.56.4:3389. Hydra attempted thousands of login combinations using
+the rockyou.txt wordlist. Although no valid password was found, the attack generated
+high‑volume failed authentication events that were successfully detected by Wazuh.
+
+## Hydra Attack Output — Attacker VM July 19 2026.png
+ This screenshot also shows Hydra performing a brute‑force attack against the Windows RDP
+service at 192.168.56.4:3389 on a diferente date and time. Hydra attempted thousands of login combinations using
+the rockyou.txt wordlist. Although no valid password was found, the attack generated
+high‑volume failed authentication events that were successfully detected also by Wazuh.
