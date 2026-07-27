@@ -111,10 +111,9 @@ learning in blue-team operations.
 All projects are built, tested, broken, repaired, and validated inside live
 multi-VM environments to reflect real-world SOC workflows.
 
-## 📸 Screenshot Documentation
+##  Screenshot Documentation
 
-## Advanced Wazuh SIEM Threat‑Hunting Lab Environment.png
-Description:  
+## Advanced Wazuh SIEM Threat‑Hunting Lab Environment.png 
 This setup demonstrates a fully operational cybersecurity lab built with VirtualBox, featuring an Ubuntu‑based Wazuh SIEM server, a Windows 10 endpoint, and an attacker VM. The screenshot highlights active threat‑hunting within Wazuh, showing real‑time Windows event logs such as non‑service account logoffs and privilege‑assignment events. Together, the environment validates agent deployment, log ingestion, rule triggering, and SOC analysis workflows.
 
 ## Hydra Attack Output — Attacker VM July 16 2026.png
@@ -155,3 +154,6 @@ This screenshot also shows Wazuh detecting a high‑severity brute‑force attac
 (Multiple Windows Logon Failures) is triggered when Wazuh correlates a rapid sequence
 of failed login attempts within a short time window. This confirms that again, the SIEM
 correctly aggregated individual 4625 events into a single brute‑force alert.
+
+## Windows Endpoint Telemetry Validation Using Sysmon & PowerShell.png
+This screenshot captures part of my cybersecurity home lab where I validate Windows telemetry before forwarding it to Wazuh SIEM. Using PowerShell, I queried the Sysmon Operational log to inspect recent security‑relevant events such as process creation, DNS queries, registry modifications, file creation, and network connections. This step ensures Sysmon is correctly installed, configured, and generating high‑fidelity data needed for threat detection and SOC analysis.
