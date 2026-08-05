@@ -1,1 +1,40 @@
 
+# 🛡️ Active Threat Hunting Playbook  
+## Brute-Force Attack Detection & Response  
+Author: Uzhiyekachi Alan Ezekwem  
+Company: NexaShield Group LLC  
+Updated: 2026
+
+---
+
+## 📌 Overview
+This playbook outlines the steps taken when a brute-force attack is detected through Wazuh SIEM, Sysmon telemetry, or Windows Event Logs.  
+It includes validation, containment, endpoint isolation, credential protection, forensic collection, and post-incident hunting.
+
+---
+
+## 1️⃣ Detection & Validation
+
+### Trigger Sources
+- **Wazuh Rules:** 60204, 60115, 92217  
+- **Windows Event Logs:** 4625 (failed login), 4624 (successful login)  
+- **Sysmon:** Event ID 1 (process creation), Event ID 3 (network connection)
+
+### Validation Steps
+- Confirm repeated failed login attempts.
+- Identify source IP, target account, and affected endpoint.
+- Check frequency (e.g., >10 failed attempts in <1 minute).
+- Verify if attempts target privileged accounts.
+
+If validated → escalate to containment.
+
+---
+
+## 2️⃣ Immediate Containment  
+### 🔒 Endpoint Isolation Procedure
+
+If compromise is suspected or brute-force attempts are ongoing:
+
+#### **Option A — Manual Windows Isolation**
+Run on the affected endpoint:
+
